@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .min-section-height {
+    min-height: calc(100vh - 55px);
+  }
+  .rounded-full-left {
+    border-radius: 100px 0 0 100px;
+  }
+  .bg-image-1 {
+    background-image: url("..//assets/about_bg1.png");
+  }
+  .bg-image-2 {
+    background-image: url("..//assets/about_bg2.png");
+  }
+
+  .filter-btn-bg {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .filter-btn-bg-hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .filter-btn-bg-focus {
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
+@layer components {
+  .filter-btn {
+    @apply px-4 py-2 filter-btn-bg rounded-full focus:filter-btn-bg-focus focus:text-primary hover:filter-btn-bg-hover transition-all duration-200 ease-in-out;
+  }
+  .filter-btn-with-img {
+    @apply filter-btn flex gap-2 items-center;
+  }
+}
