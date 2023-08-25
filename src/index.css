@@ -16,6 +16,13 @@
     background-image: url("..//assets/about_bg2.png");
   }
 
+  .bg-image-trending-food {
+    background-image: url("..//assets/japanese_sushi.png");
+  }
+  .bg-image-trending-drink {
+    background-image: url("..//assets/japanese_drinks.png");
+  }
+
   .filter-btn-bg {
     background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -41,5 +48,9 @@
   }
   .check-img {
     @apply bg-primary py-2 px-[6.5px] rounded-full;
+  }
+
+  .trending-img {
+    @apply bg-white bg-contain bg-center bg-no-repeat flex-1 relative px-20 py-20 flex justify-center items-center;
   }
 }
