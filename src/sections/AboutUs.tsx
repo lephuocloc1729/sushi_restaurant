@@ -32,10 +32,10 @@ const AboutUs = () => {
           className="flex flex-col justify-center gap-8 font-serif px-8 py-8 max-w-[550px]"
         >
           <div>
-            <p className="opacity-70">About Us</p>
+            <p className="opacity-50">About Us</p>
           </div>
           <div>
-            <h2 className="text-6xl text">
+            <h2 className="text-6xl font-bold">
               Our mission is to bring true Japanese flavours to you.
             </h2>
           </div>

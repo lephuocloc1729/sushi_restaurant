@@ -2,6 +2,7 @@ import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import AboutUs from "./sections/AboutUs";
 import PopularFood from "./sections/PopularFood";
+import Trending from "./sections/Trending";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -19,6 +20,7 @@ function App() {
       <Hero />
       <AboutUs />
       <PopularFood />
+      <Trending />
     </main>
   );
 }

@@ -69,7 +69,7 @@ const PopularFood = () => {
         </article>
       </div>
       <button
-        data-aos="fade-up"
+        data-aos="zoom-in-up"
         className="flex items-center justify-center gap-4 bg-black py-3 px-6 rounded-full"
       >
         Explore Foods{" "}
