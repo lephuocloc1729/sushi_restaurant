@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="flex-1 bg-primary min-section-height">
         <img
           data-aos="fade-right"
-          className="min-w-[120%] object-contain"
+          className="min-w-[120%] object-contain mt-[200px]"
           src="../../assets/sushi-1.png"
           alt="sushi"
         />

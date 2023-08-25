@@ -1,8 +1,8 @@
 const Navbar = () => {
   return (
-    <nav className="flex items-center">
+    <nav className="flex items-center bg-primary lg:bg-transparent">
       <a
-        className="text-4xl font-bold bg-primary flex-1 py-2 pl-5"
+        className="text-4xl font-bold lg:bg-primary flex-1 py-2 pl-5"
         href="#hero"
       >
         <h4 data-aos="fade-down" className="text-white">
@@ -11,7 +11,7 @@ const Navbar = () => {
       </a>
       <ul
         data-aos="fade-down"
-        className="sm:flex flex-[1.3] text-secondary justify-end gap-16 hidden pr-6"
+        className="lg:flex flex-[1.3] text-secondary justify-end gap-16 hidden pr-6"
       >
         <li>
           <a href="#menu">Menu</a>
@@ -30,7 +30,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/* menu for mobile devices */}
-      <ul data-aos="fade-down" className="sm:hidden bg-primary">
+      <ul data-aos="fade-down" className="lg:hidden">
         <li>
           <img src="../../assets/menu.svg" alt="" />
         </li>
