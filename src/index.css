@@ -35,9 +35,6 @@
     background-color: white;
     border: 1px solid rgba(255, 255, 255, 0.2);
   }
-  .min-h-640 {
-    min-height: 640px;
-  }
 }
 @layer components {
   .filter-btn {
@@ -55,5 +52,9 @@
 
   .trending-img {
     @apply bg-white bg-contain bg-center bg-no-repeat flex-1 relative px-20 py-20 flex justify-center items-center;
+  }
+
+  .brand-logo {
+    @apply w-8 h-8 flex justify-center items-center rounded-full;
   }
 }
