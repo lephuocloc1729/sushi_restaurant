@@ -2,7 +2,7 @@ const PopularFood = () => {
   return (
     <section
       id="menu"
-      className="bg-primary text-white flex flex-col items-center gap-8 py-8"
+      className="bg-primary text-white flex flex-col items-center gap-8 py-8 min-h-[50vh]"
     >
       <h2 data-aos="flip-down" className="text-5xl font-bold font-serif">
         Popular Food
@@ -69,7 +69,8 @@ const PopularFood = () => {
         </article>
       </div>
       <button
-        data-aos="zoom-in-up"
+        data-aos="zoom-in"
+        data-aos-duration="2500"
         className="flex items-center justify-center gap-4 bg-black py-3 px-6 rounded-full"
       >
         Explore Foods{" "}

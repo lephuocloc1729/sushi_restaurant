@@ -2,10 +2,10 @@ import React from "react";
 
 const Trending = () => {
   return (
-    <section className="flex flex-col relative">
-      <section id="food" className="flex flex-1">
-        <div className="flex-1">
-          <div className="flex flex-col flex-1 justify-center gap-8 font-serif px-8 pt-24 pb-16">
+    <section className="flex-col relative">
+      <section id="food" className="flex min-h-[50vh]">
+        <div data-aos="fade-right" className="flex-1">
+          <div className="flex flex-col flex-1 justify-center gap-8 font-serif px-8 pt-24 pb-24">
             <p className="opacity-50">What's Trending</p>
             <h2 className="text-6xl font-bold">Japanese Sushi</h2>
             <p className="opacity-70">
@@ -78,6 +78,7 @@ const Trending = () => {
         <div className="flex-1 bg-white flex items-center justify-center ">
           <div className="bg-image-trending-food trending-img">
             <img
+              data-aos="fade-left"
               className="w-[200px]"
               src="../../assets/sushi-5.png"
               alt="sushi-5"
@@ -86,13 +87,19 @@ const Trending = () => {
         </div>
       </section>
 
-      <div className="absolute w-40 h-40 flex items-center justify-center text-2xl top-1/2 left-1/2 z-10 -translate-x-1/2 -translate-y-1/2 rounded-full bg-secondary text-white">
+      <div
+        // data-aos="zoom-in"
+        className="absolute w-40 h-40 flex items-center justify-center text-2xl top-1/2 left-1/2 z-10 -translate-x-1/2 -translate-y-1/2 rounded-full bg-secondary text-white"
+      >
         Discover
       </div>
 
-      <section id="drink" className="flex flex-row-reverse flex-1">
+      <section id="drink" className="flex flex-row-reverse min-h-[50vh]">
         <div className="flex-1">
-          <div className="flex flex-col flex-1 justify-center gap-8 font-serif pl-16 pr-8 pt-24 pb-16">
+          <div
+            data-aos="fade-left"
+            className="flex flex-col flex-1 justify-center gap-8 font-serif pl-16 pr-8 pt-24 pb-12"
+          >
             <p className="opacity-50">What's Trending</p>
             <h2 className="text-6xl font-bold">Japanese Drinks</h2>
             <p className="opacity-70">
@@ -165,6 +172,7 @@ const Trending = () => {
         <div className="flex-1 bg-white flex items-center justify-center">
           <div className="bg-image-trending-drink trending-img">
             <img
+              data-aos="fade-right"
               className="w-[200px]"
               src="../../assets/sushi-4.png"
               alt="sushi-5"
