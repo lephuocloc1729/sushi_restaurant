@@ -7,6 +7,8 @@ export default {
         primary: "#b1454a",
         creamson: "#fff0de",
         secondary: "#121212",
+        "white-100": "rgba(255, 255, 255, 0.1)",
+        "white-200": "rgba(255, 255, 255, 0.2)",
       },
     },
   },

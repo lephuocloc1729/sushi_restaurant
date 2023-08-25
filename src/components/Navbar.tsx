@@ -5,9 +5,14 @@ const Navbar = () => {
         className="text-4xl font-bold bg-primary flex-1 py-2 pl-5"
         href="#hero"
       >
-        Sushiman
+        <h4 data-aos="fade-down" className="text-white">
+          Sushiman
+        </h4>
       </a>
-      <ul className="sm:flex flex-[1.3] text-secondary justify-end gap-16 hidden pr-6">
+      <ul
+        data-aos="fade-down"
+        className="sm:flex flex-[1.3] text-secondary justify-end gap-16 hidden pr-6"
+      >
         <li>
           <a href="#menu">Menu</a>
         </li>
@@ -25,7 +30,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/* menu for mobile devices */}
-      <ul className="sm:hidden bg-primary">
+      <ul data-aos="fade-down" className="sm:hidden bg-primary">
         <li>
           <img src="../../assets/menu.svg" alt="" />
         </li>

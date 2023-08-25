@@ -5,13 +5,17 @@ const Hero = () => {
     <section id="hero" className="flex">
       <div className="flex-1 bg-primary min-section-height">
         <img
+          data-aos="fade-right"
           className="min-w-[120%] object-contain"
           src="../../assets/sushi-1.png"
           alt="sushi"
         />
       </div>
       <div className="flex flex-[1.3] flex-col min-section-height">
-        <div className="flex flex-col justify-center flex-1 max-w-[550px] mx-auto gap-8 px-6">
+        <div
+          data-aos="fade-left"
+          className="flex flex-col justify-center flex-1 max-w-[550px] mx-auto gap-8 px-6"
+        >
           <div className="text-7xl font-bold font-serif">
             <h1>Feel the taste of Japanese foods</h1>
           </div>
@@ -31,7 +35,10 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="flex justify-center gap-12 bg-white p-8">
+        <div
+          data-aos="fade-up"
+          className="flex justify-center gap-12 bg-white p-8"
+        >
           <div className="flex-1">
             <h4 className="text-5xl font-serif font-bold">
               29<span className="font-">k+</span>

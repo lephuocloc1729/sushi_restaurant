@@ -36,4 +36,7 @@
   .filter-btn-with-img {
     @apply filter-btn flex gap-2 items-center;
   }
+  .food-card-sm {
+    @apply bg-white-100 px-10 py-6 rounded-3xl border-solid border-[1px] border-white-200 hover:bg-white-200 transition-all duration-200 ease-in-out flex flex-col items-center justify-center gap-8;
+  }
 }
